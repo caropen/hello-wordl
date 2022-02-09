@@ -193,15 +193,15 @@ function Game(props: GameProps) {
       setCurrentGuess((guess) => "");
 
       const gameOver = (verbed: string) =>
-        `You ${verbed}! Play again until you find the answer. (Enter to ${
+        `You ${verbed} (Enter to ${
           challenge ? "play a random game" : "play again"
         })`;
 
       if (currentGuess === target) {
-        setHint(gameOver("won"));
+        setHint(gameOver("won!"));
         setGameState(GameState.Won);
       } else if (guesses.length + 1 === props.maxGuesses) {
-        setHint(gameOver("lost"));
+        setHint(gameOver("lost! Play again until you find the answer."));
         setGameState(GameState.Lost);
       } else {
         setHint("");
