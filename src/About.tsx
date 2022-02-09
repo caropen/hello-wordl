@@ -6,7 +6,7 @@ export function About() {
   return (
     <div className="App-about">
       <p>
-        <i>hello wordl</i> is a remake of the word game{" "}
+        <i>wedding wordl</i> is a remake of the word game{" "}
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
         </a>{" "}
@@ -70,7 +70,7 @@ export function About() {
         ]}
         annotation={"Got it!"}
       />
-      <p>
+      {/*<p>
         Report issues{" "}
         <a href="https://github.com/lynn/hello-wordl/issues">here</a>, or tweet{" "}
         <a href="https://twitter.com/chordbug">@chordbug</a>.
@@ -81,6 +81,7 @@ export function About() {
         but you can <a href="https://ko-fi.com/chordbug">buy me a coffee</a> if
         you'd like.
       </p>
+      */}
     </div>
   );
 }
