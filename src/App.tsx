@@ -74,9 +74,9 @@ function App() {
             fontStyle: difficulty > 1 ? "italic" : "inherit",
           }}
         >
-          hell
+          wedd
         </span>
-        o wordl
+        ing wordle
       </h1>
       <div className="top-right">
         {page !== "game" ? (
